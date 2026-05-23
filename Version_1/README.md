@@ -1,6 +1,6 @@
 # Agentic AI Tutor — Fine-Tuning README
 
-## Training Configuration
+## Training Configuration (Same as Abu Bakr)
 
 ```yaml
 model_name_or_path: /kaggle/working/qwen_model
