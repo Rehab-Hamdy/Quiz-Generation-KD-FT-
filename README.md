@@ -34,7 +34,7 @@
 
 | Version | Train | Validation | Test |
 |---|---|---|---|
-| Version 1 | 2489 | 289 | 143 |
+| Version 1 | 2489 | 289 | 143 but use External data|
 | Version 2 | 2632 | 289 | External only |
 | Version 3 | 2632 | 289 | External only |
 
