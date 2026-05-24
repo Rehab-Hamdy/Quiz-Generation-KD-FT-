@@ -1,4 +1,3 @@
-```md
 # MCQ Fine-Tuning Experiments Comparison
 
 ## Project Overview
@@ -199,4 +198,3 @@ For the next larger-scale training run, the best strategy is:
 - start from Version 2,
 - moderately increase LoRA capacity,
 - and maintain balanced regularization.
-```
