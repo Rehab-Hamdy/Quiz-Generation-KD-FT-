@@ -1,4 +1,4 @@
-# Agentic AI Tutor — Configuration v2 and Evaluation Results
+# Agentic AI Tutor — Configuration v3 and Evaluation Results
 
 ## Training configuration
 
