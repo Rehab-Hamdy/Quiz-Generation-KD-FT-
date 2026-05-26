@@ -1,0 +1,315 @@
+{
+  "teacher": {
+    "CMQS": {
+      "mean": 4.6138,
+      "std": 0.3989,
+      "median": 4.8,
+      "min": 2.2,
+      "max": 5.0,
+      "n": 192
+    },
+    "D1_factual_grounding": {
+      "mean": 4.5833,
+      "std": 0.8882,
+      "median": 5.0,
+      "n": 192
+    },
+    "D2_question_clarity": {
+      "mean": 4.9688,
+      "std": 0.1744,
+      "median": 5.0,
+      "n": 192
+    },
+    "D3_correct_answer_validity": {
+      "mean": 4.8854,
+      "std": 0.6451,
+      "median": 5.0,
+      "n": 192
+    },
+    "D4_distractor_plausibility": {
+      "mean": 3.9531,
+      "std": 0.3282,
+      "median": 4.0,
+      "n": 192
+    },
+    "D5_bloom_alignment": {
+      "mean": 4.724,
+      "std": 0.7029,
+      "median": 5.0,
+      "n": 192
+    },
+    "D6_topic_lo_alignment": {
+      "mean": 4.9479,
+      "std": 0.3652,
+      "median": 5.0,
+      "n": 192
+    },
+    "bloom_breakdown": {
+      "analyze": {
+        "mean": 4.6837,
+        "std": 0.2116,
+        "n": 52
+      },
+      "apply": {
+        "mean": 4.6824,
+        "std": 0.2573,
+        "n": 51
+      },
+      "create": {
+        "mean": 4.3231,
+        "std": 0.2176,
+        "n": 13
+      },
+      "evaluate": {
+        "mean": 4.4667,
+        "std": 0.5659,
+        "n": 27
+      },
+      "remember": {
+        "mean": 4.0714,
+        "std": 1.1026,
+        "n": 7
+      },
+      "understand": {
+        "mean": 4.719,
+        "std": 0.3086,
+        "n": 42
+      }
+    },
+    "quality_distribution": {
+      "Excellent": {
+        "count": 153,
+        "pct": 79.7
+      },
+      "Good": {
+        "count": 33,
+        "pct": 17.2
+      },
+      "Acceptable": {
+        "count": 3,
+        "pct": 1.6
+      },
+      "Poor": {
+        "count": 3,
+        "pct": 1.6
+      },
+      "Reject": {
+        "count": 0,
+        "pct": 0.0
+      }
+    },
+    "n_valid": 192,
+    "n_total": 200
+  },
+  "student_pre_ft": {
+    "CMQS": {
+      "mean": 3.9545,
+      "std": 0.9964,
+      "median": 4.35,
+      "min": 1.45,
+      "max": 5.0,
+      "n": 165
+    },
+    "D1_factual_grounding": {
+      "mean": 3.5333,
+      "std": 1.5082,
+      "median": 4.0,
+      "n": 165
+    },
+    "D2_question_clarity": {
+      "mean": 4.8545,
+      "std": 0.4169,
+      "median": 5.0,
+      "n": 165
+    },
+    "D3_correct_answer_validity": {
+      "mean": 3.9091,
+      "std": 1.7314,
+      "median": 5.0,
+      "n": 165
+    },
+    "D4_distractor_plausibility": {
+      "mean": 3.6909,
+      "std": 0.754,
+      "median": 4.0,
+      "n": 165
+    },
+    "D5_bloom_alignment": {
+      "mean": 4.0424,
+      "std": 1.2315,
+      "median": 5.0,
+      "n": 165
+    },
+    "D6_topic_lo_alignment": {
+      "mean": 4.5939,
+      "std": 1.0412,
+      "median": 5.0,
+      "n": 165
+    },
+    "bloom_breakdown": {
+      "analyze": {
+        "mean": 3.6795,
+        "std": 1.0395,
+        "n": 44
+      },
+      "apply": {
+        "mean": 4.1511,
+        "std": 0.899,
+        "n": 46
+      },
+      "create": {
+        "mean": 3.5167,
+        "std": 1.0072,
+        "n": 9
+      },
+      "evaluate": {
+        "mean": 3.7109,
+        "std": 1.0818,
+        "n": 23
+      },
+      "remember": {
+        "mean": 4.2,
+        "std": 0.9106,
+        "n": 7
+      },
+      "understand": {
+        "mean": 4.2569,
+        "std": 0.9143,
+        "n": 36
+      }
+    },
+    "quality_distribution": {
+      "Excellent": {
+        "count": 75,
+        "pct": 45.5
+      },
+      "Good": {
+        "count": 44,
+        "pct": 26.7
+      },
+      "Acceptable": {
+        "count": 12,
+        "pct": 7.3
+      },
+      "Poor": {
+        "count": 24,
+        "pct": 14.5
+      },
+      "Reject": {
+        "count": 10,
+        "pct": 6.1
+      }
+    },
+    "n_valid": 165,
+    "n_total": 191
+  },
+  "student_post_ft": {
+    "CMQS": {
+      "mean": 4.3145,
+      "std": 0.7193,
+      "median": 4.55,
+      "min": 1.6,
+      "max": 5.0,
+      "n": 172
+    },
+    "D1_factual_grounding": {
+      "mean": 4.0233,
+      "std": 1.2281,
+      "median": 5.0,
+      "n": 172
+    },
+    "D2_question_clarity": {
+      "mean": 4.8953,
+      "std": 0.307,
+      "median": 5.0,
+      "n": 172
+    },
+    "D3_correct_answer_validity": {
+      "mean": 4.3314,
+      "std": 1.439,
+      "median": 5.0,
+      "n": 172
+    },
+    "D4_distractor_plausibility": {
+      "mean": 3.8895,
+      "std": 0.5009,
+      "median": 4.0,
+      "n": 172
+    },
+    "D5_bloom_alignment": {
+      "mean": 4.5814,
+      "std": 0.9108,
+      "median": 5.0,
+      "n": 172
+    },
+    "D6_topic_lo_alignment": {
+      "mean": 4.8779,
+      "std": 0.5431,
+      "median": 5.0,
+      "n": 172
+    },
+    "bloom_breakdown": {
+      "analyze": {
+        "mean": 4.2469,
+        "std": 0.8336,
+        "n": 49
+      },
+      "apply": {
+        "mean": 4.4146,
+        "std": 0.5864,
+        "n": 48
+      },
+      "create": {
+        "mean": 3.95,
+        "std": 0.7051,
+        "n": 10
+      },
+      "evaluate": {
+        "mean": 4.2778,
+        "std": 0.6165,
+        "n": 18
+      },
+      "remember": {
+        "mean": 3.7833,
+        "std": 1.1303,
+        "n": 6
+      },
+      "understand": {
+        "mean": 4.461,
+        "std": 0.6521,
+        "n": 41
+      }
+    },
+    "quality_distribution": {
+      "Excellent": {
+        "count": 102,
+        "pct": 59.3
+      },
+      "Good": {
+        "count": 40,
+        "pct": 23.3
+      },
+      "Acceptable": {
+        "count": 18,
+        "pct": 10.5
+      },
+      "Poor": {
+        "count": 8,
+        "pct": 4.7
+      },
+      "Reject": {
+        "count": 4,
+        "pct": 2.3
+      }
+    },
+    "n_valid": 172,
+    "n_total": 200
+  },
+  "summary": {
+    "QPS_overall_pct": 93.51,
+    "FT_gain_CMQS": 0.36,
+    "teacher_CMQS_mean": 4.6138,
+    "pre_ft_CMQS_mean": 3.9545,
+    "post_ft_CMQS_mean": 4.3145
+  }
+}
