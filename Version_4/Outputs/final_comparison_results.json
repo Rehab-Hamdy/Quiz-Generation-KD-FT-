@@ -311,5 +311,355 @@
     "teacher_CMQS_mean": 4.6138,
     "pre_ft_CMQS_mean": 3.9545,
     "post_ft_CMQS_mean": 4.3786
+  },
+  "significance_tests": {
+    "cmqs_post_vs_pre": {
+      "stat": 5928.5,
+      "p": 4.619291937410693e-07,
+      "n": 162,
+      "cohens_d": 0.5296
+    },
+    "cmqs_teacher_vs_post": {
+      "stat": 4864.0,
+      "p": 7.98426271620021e-09,
+      "n": 186,
+      "cohens_d": 0.4605
+    },
+    "D1_factual_grounding": {
+      "stat": 4150.0,
+      "p": 3.914390109860128e-06,
+      "n": 162,
+      "cohens_d": 0.48
+    },
+    "D2_question_clarity": {
+      "stat": 305.5,
+      "p": 0.04729585896646642,
+      "n": 162,
+      "cohens_d": 0.1917
+    },
+    "D3_correct_answer_validity": {
+      "stat": 1264.0,
+      "p": 0.0001462104153133818,
+      "n": 162,
+      "cohens_d": 0.4019
+    },
+    "D4_distractor_plausibility": {
+      "stat": 619.0,
+      "p": 8.284682311494872e-05,
+      "n": 162,
+      "cohens_d": 0.3914
+    },
+    "D5_bloom_alignment": {
+      "stat": 2250.0,
+      "p": 4.1382934308192256e-08,
+      "n": 162,
+      "cohens_d": 0.514
+    },
+    "D6_topic_lo_alignment": {
+      "stat": 353.5,
+      "p": 0.00026803093992245464,
+      "n": 162,
+      "cohens_d": 0.3176
+    }
+  },
+  "semantic_similarity": {
+    "matched_shared_pairs": 150,
+    "pre_ft": {
+      "mean": 0.7772,
+      "std": 0.0781,
+      "median": 0.7912,
+      "min": 0.4607,
+      "max": 0.9209,
+      "n": 150
+    },
+    "post_ft": {
+      "mean": 0.8202,
+      "std": 0.0697,
+      "median": 0.8272,
+      "min": 0.5916,
+      "max": 0.9694,
+      "n": 150
+    },
+    "similarity_gain": 0.043,
+    "bloom_breakdown_post_ft": {
+      "analyze": 0.8302,
+      "evaluate": 0.799,
+      "remember": 0.7841,
+      "understand": 0.8463,
+      "create": 0.799,
+      "apply": 0.811
+    }
+  },
+  "gap_ranking": [
+    {
+      "key": "D1_factual_grounding",
+      "label": "D1 — Factual Grounding",
+      "teacher": 4.5833,
+      "pre_ft": 3.5333,
+      "post_ft": 4.1495,
+      "gap": 0.4338,
+      "gain": 0.6162,
+      "post_qps": 90.5
+    },
+    {
+      "key": "D3_correct_answer_validity",
+      "label": "D3 — Correct Answer Validity",
+      "teacher": 4.8854,
+      "pre_ft": 3.9091,
+      "post_ft": 4.4845,
+      "gap": 0.4009,
+      "gain": 0.5754,
+      "post_qps": 91.8
+    },
+    {
+      "key": "CMQS",
+      "label": "CMQS (Composite)",
+      "teacher": 4.6138,
+      "pre_ft": 3.9545,
+      "post_ft": 4.3786,
+      "gap": 0.2352,
+      "gain": 0.4241,
+      "post_qps": 94.9
+    },
+    {
+      "key": "D5_bloom_alignment",
+      "label": "D5 — Bloom Alignment",
+      "teacher": 4.724,
+      "pre_ft": 4.0424,
+      "post_ft": 4.5567,
+      "gap": 0.1673,
+      "gain": 0.5143,
+      "post_qps": 96.5
+    },
+    {
+      "key": "D6_topic_lo_alignment",
+      "label": "D6 — Topic & LO Alignment",
+      "teacher": 4.9479,
+      "pre_ft": 4.5939,
+      "post_ft": 4.8711,
+      "gap": 0.0768,
+      "gain": 0.2772,
+      "post_qps": 98.4
+    },
+    {
+      "key": "D2_question_clarity",
+      "label": "D2 — Question Clarity",
+      "teacher": 4.9688,
+      "pre_ft": 4.8545,
+      "post_ft": 4.9124,
+      "gap": 0.0564,
+      "gain": 0.0579,
+      "post_qps": 98.9
+    },
+    {
+      "key": "D4_distractor_plausibility",
+      "label": "D4 — Distractor Plausibility",
+      "teacher": 3.9531,
+      "pre_ft": 3.6909,
+      "post_ft": 3.9124,
+      "gap": 0.0407,
+      "gain": 0.2215,
+      "post_qps": 99.0
+    }
+  ],
+  "retention_score": {
+    "teacher_latency_ms": 1360.14,
+    "student_latency_ms": 8187.12,
+    "latency_ratio_T_over_S": 0.1661,
+    "speed_description": "6.02x Student SLOWER than teacher",
+    "cmqs_retention_pct": 94.9,
+    "retention_score_RS": 0.1577,
+    "latency_source": "real test sample | sample: [chunk_id=hands-on-machine-learning_1109 | slot=1 | bloom=apply | chunk_type=definition | concept='sparsity loss'] | student: Rehab-Hamdy/mcq-bloom-qwen-merged_v4 | teacher: measured — gemini-2.5-flash-lite API",
+    "latency_sample": {
+      "chunk_id": "hands-on-machine-learning_1109",
+      "slot_index": 1,
+      "bloom_level": "apply",
+      "chunk_type": "definition",
+      "concept": "sparsity loss",
+      "prompt_chars": 1644,
+      "n_warmup": 2,
+      "n_measure": 5,
+      "student_model": "Rehab-Hamdy/mcq-bloom-qwen-merged_v4",
+      "teacher_model": "measured — gemini-2.5-flash-lite API"
+    }
+  },
+  "kl_divergence": {
+    "D1_factual_grounding": {
+      "kl_pre": 0.318968,
+      "kl_post": 0.114463,
+      "kl_reduction": 0.204506,
+      "teacher_distribution": {
+        "1": 0.026,
+        "2": 0.0,
+        "3": 0.1146,
+        "4": 0.0833,
+        "5": 0.776
+      },
+      "pre_ft_distribution": {
+        "1": 0.2,
+        "2": 0.0,
+        "3": 0.2727,
+        "4": 0.1212,
+        "5": 0.4061
+      },
+      "post_ft_distribution": {
+        "1": 0.0515,
+        "2": 0.0,
+        "3": 0.2423,
+        "4": 0.1598,
+        "5": 0.5464
+      }
+    },
+    "D2_question_clarity": {
+      "kl_pre": 0.060364,
+      "kl_post": 0.025864,
+      "kl_reduction": 0.0345,
+      "teacher_distribution": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0313,
+        "5": 0.9687
+      },
+      "pre_ft_distribution": {
+        "1": 0.0,
+        "2": 0.0061,
+        "3": 0.0061,
+        "4": 0.1152,
+        "5": 0.8727
+      },
+      "post_ft_distribution": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0876,
+        "5": 0.9124
+      }
+    },
+    "D3_correct_answer_validity": {
+      "kl_pre": 0.248717,
+      "kl_post": 0.086706,
+      "kl_reduction": 0.16201,
+      "teacher_distribution": {
+        "1": 0.026,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0104,
+        "5": 0.9635
+      },
+      "pre_ft_distribution": {
+        "1": 0.2485,
+        "2": 0.0121,
+        "3": 0.0121,
+        "4": 0.0364,
+        "5": 0.6909
+      },
+      "post_ft_distribution": {
+        "1": 0.1031,
+        "2": 0.0155,
+        "3": 0.0155,
+        "4": 0.0258,
+        "5": 0.8402
+      }
+    },
+    "D4_distractor_plausibility": {
+      "kl_pre": 0.113688,
+      "kl_post": 0.006652,
+      "kl_reduction": 0.107036,
+      "teacher_distribution": {
+        "1": 0.0,
+        "2": 0.0208,
+        "3": 0.0156,
+        "4": 0.9531,
+        "5": 0.0104
+      },
+      "pre_ft_distribution": {
+        "1": 0.0,
+        "2": 0.1515,
+        "3": 0.0303,
+        "4": 0.7939,
+        "5": 0.0242
+      },
+      "post_ft_distribution": {
+        "1": 0.0,
+        "2": 0.0361,
+        "3": 0.0206,
+        "4": 0.9381,
+        "5": 0.0052
+      }
+    },
+    "D5_bloom_alignment": {
+      "kl_pre": 0.226357,
+      "kl_post": 0.135984,
+      "kl_reduction": 0.090373,
+      "teacher_distribution": {
+        "1": 0.0,
+        "2": 0.0469,
+        "3": 0.0052,
+        "4": 0.125,
+        "5": 0.8229
+      },
+      "pre_ft_distribution": {
+        "1": 0.0182,
+        "2": 0.2061,
+        "3": 0.0061,
+        "4": 0.2545,
+        "5": 0.5152
+      },
+      "post_ft_distribution": {
+        "1": 0.0155,
+        "2": 0.067,
+        "3": 0.0,
+        "4": 0.1804,
+        "5": 0.7371
+      }
+    },
+    "D6_topic_lo_alignment": {
+      "kl_pre": 0.111823,
+      "kl_post": 0.023376,
+      "kl_reduction": 0.088447,
+      "teacher_distribution": {
+        "1": 0.0052,
+        "2": 0.0,
+        "3": 0.0104,
+        "4": 0.0104,
+        "5": 0.974
+      },
+      "pre_ft_distribution": {
+        "1": 0.0545,
+        "2": 0.0182,
+        "3": 0.0364,
+        "4": 0.0606,
+        "5": 0.8303
+      },
+      "post_ft_distribution": {
+        "1": 0.0155,
+        "2": 0.0103,
+        "3": 0.0052,
+        "4": 0.0258,
+        "5": 0.9433
+      }
+    }
+  },
+  "perplexity": {
+    "model_source": "Rehab-Hamdy/mcq-bloom-qwen-merged_v4",
+    "ppl_on_teacher_mcqs": {
+      "mean_ppl": 10.4512,
+      "std_ppl": 6.3478,
+      "mean_nll": 2.228941,
+      "n": 150
+    },
+    "ppl_on_pre_ft_mcqs": {
+      "mean_ppl": 20.0522,
+      "std_ppl": 26.0367,
+      "mean_nll": 2.641427,
+      "n": 150
+    },
+    "ppl_on_post_ft_mcqs": {
+      "mean_ppl": 8.2561,
+      "std_ppl": 3.8243,
+      "mean_nll": 2.015772,
+      "n": 150
+    }
   }
 }
